@@ -40,7 +40,7 @@ public class CountSaveTest : MonoBehaviour
         string json = JsonConvert.SerializeObject(CountDataDict, Formatting.Indented);
 
         File.WriteAllText(Application.dataPath + "/DB/Count.json", json/*Cdata.ToString()*/);
-        //Debug.Log("[Save]: "+CountData["Count"].ToString());
+        Debug.Log("[Save]: "+ sUpCount);
     }
 }
 
