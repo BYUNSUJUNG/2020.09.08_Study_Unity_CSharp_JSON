@@ -17,7 +17,7 @@ public class JsonSaveTest : MonoBehaviour
         PMdata = JsonMapper.ToObject(PMstring);
     }
 
-    void ClickSave()
+    public void ClickSave()
     {
         Sstring[0] = PMdata[0]["파워"].ToString();
         Sstring[1] = PMdata[1]["파워"].ToString();

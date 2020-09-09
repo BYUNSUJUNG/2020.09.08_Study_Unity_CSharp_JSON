@@ -16,7 +16,7 @@ public class CountLoadTest : MonoBehaviour
 
     void Start () 
     {
-        CountString = File.ReadAllText(Application.dataPath + "/DB/Count.json");
+        CountString = File.ReadAllText(Application.dataPath + "/Save/Count.json");
         CountData = JsonMapper.ToObject(CountString);
     }
 
