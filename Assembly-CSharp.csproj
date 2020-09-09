@@ -64,7 +64,6 @@
   <ItemGroup>
     <Compile Include="Assets\Script\CountLoadTest.cs" />
     <Compile Include="Assets\Script\CountSaveTest.cs" />
-    <Compile Include="Assets\Script\CountUpSaveTest.cs" />
     <Compile Include="Assets\Script\JsonLoadTest.cs" />
     <Compile Include="Assets\Script\JsonSaveTest.cs" />
     <Reference Include="UnityEngine">
